@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{5ed8e3a7-47af-4a20-a990-83dd5ffd4af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DoubleBuffer">
+      <UniqueIdentifier>{3c86a775-e72c-4e24-86a2-4bf48a592eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SceneManager">
+      <UniqueIdentifier>{f599d45c-2b8e-4722-add9-f10ca2e95a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Abstract">
+      <UniqueIdentifier>{423da43b-e780-48f7-8976-8d44912924e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{cc509004-80d7-4551-b371-025d79775ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage">
+      <UniqueIdentifier>{d8fc26b3-9fe5-4e8f-ad24-81d1157fabc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Menu">
+      <UniqueIdentifier>{f8a9d48a-491d-4ccf-95c0-ce27ec2ed6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage2">
+      <UniqueIdentifier>{d65d2808-f1c2-4fa1-a364-4cc9045d5e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage3_Earthwarm">
+      <UniqueIdentifier>{c12c0923-c5d4-4aef-a908-af69fe66d781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{44f84dc2-25df-4677-93c4-81c08977c692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage3">
+      <UniqueIdentifier>{aea6f1b7-1cf5-48ca-ada6-e487968df08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage3\Earthwarm">
+      <UniqueIdentifier>{0d1180e6-daf5-4ab6-ab23-0b34d55cc90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage">
+      <UniqueIdentifier>{a62a1518-c77e-417a-9901-81b413770d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage2">
+      <UniqueIdentifier>{12c4481c-1836-4c74-9b93-a28ef810fd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage\Player">
+      <UniqueIdentifier>{993ffa91-a9d9-451d-aaae-88bd1833b9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage\Bullet">
+      <UniqueIdentifier>{4aec95b8-f783-4af8-9c23-6b315ba18503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage3\Food">
+      <UniqueIdentifier>{30a43cd8-b0e2-4d7f-9705-0f292b47be26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\DrawUI">
+      <UniqueIdentifier>{be5dfdff-d124-43ec-b3c0-a8b8dd047f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage4_Tetris">
+      <UniqueIdentifier>{32dfc84f-9764-413a-9bf7-a2ca6075ad60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage4">
+      <UniqueIdentifier>{43dd4d52-b6f9-4e34-89ae-60444f398842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage4\Shape">
+      <UniqueIdentifier>{01864fcf-c8a4-4ef8-a2a1-4ad6c2a3c69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage4\Shape\BlockShape">
+      <UniqueIdentifier>{fe33ba2c-fe2a-4933-86d7-f758350d2ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Stage4\ShapeMgr">
+      <UniqueIdentifier>{fb0fd11c-e6e3-44f9-ba7d-ae234fc23e54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffer.cpp">
+      <Filter>소스 파일\DoubleBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\Object\Stage\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object\Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>소스 파일\Scene\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\Scene\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3_EarthWarm.cpp">
+      <Filter>소스 파일\Scene\Stage3_Earthwarm</Filter>
+    </ClCompile>
+    <ClCompile Include="Earthwarm.cpp">
+      <Filter>소스 파일\Object\Stage3\Earthwarm</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>소스 파일\Object\Stage3\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUI.cpp">
+      <Filter>소스 파일\Scene\DrawUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage4_Tetris.cpp">
+      <Filter>소스 파일\Scene\Stage4_Tetris</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeMgr.cpp">
+      <Filter>소스 파일\Object\Stage4\ShapeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape_Rect.cpp">
+      <Filter>소스 파일\Object\Stage4\Shape\BlockShape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape_Stick.cpp">
+      <Filter>소스 파일\Object\Stage4\Shape\BlockShape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>소스 파일\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffer.h">
+      <Filter>소스 파일\DoubleBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\Object\Stage\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object\Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>소스 파일\Scene\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\Scene\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3_EarthWarm.h">
+      <Filter>소스 파일\Scene\Stage3_Earthwarm</Filter>
+    </ClInclude>
+    <ClInclude Include="Earthwarm.h">
+      <Filter>소스 파일\Object\Stage3\Earthwarm</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>소스 파일\Object\Stage3\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUI.h">
+      <Filter>소스 파일\Scene\DrawUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage4_Tetris.h">
+      <Filter>소스 파일\Scene\Stage4_Tetris</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeMgr.h">
+      <Filter>소스 파일\Object\Stage4\ShapeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape_Rect.h">
+      <Filter>소스 파일\Object\Stage4\Shape\BlockShape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>소스 파일\Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape_Stick.h">
+      <Filter>소스 파일\Object\Stage4\Shape\BlockShape</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
